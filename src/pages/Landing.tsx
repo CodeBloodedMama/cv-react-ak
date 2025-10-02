@@ -4,7 +4,6 @@ export default function Landing() {
       <div className="flex justify-center md:justify-start">
         <img
           src="/public/profilpic.png"
-          alt="Profile picture of Alan Khamo"
           className="w-64 h-64 object-cover rounded-full shadow-lg border-4 border-blue-600 dark:border-blue-400"
         />
       </div>
