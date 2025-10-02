@@ -35,7 +35,7 @@ export default function App() {
       <header className="sticky top-0 bg-white/80 dark:bg-gray-950/80 backdrop-blur border-b border-gray-200 dark:border-gray-800">
         <nav className="max-w-6xl mx-auto flex justify-between items-center h-16 px-4">
           <NavLink to="/" className="font-bold text-blue-700 dark:text-blue-300">
-            AK
+            Alan Khamo - Software Engineer with full stack flair
           </NavLink>
           <div className="hidden md:flex gap-4">
             <NavItem to="/">Home</NavItem>
