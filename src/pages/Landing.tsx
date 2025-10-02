@@ -3,7 +3,7 @@ export default function Landing() {
     <section className="grid gap-8 md:grid-cols-2 items-center">
       <div className="flex justify-center md:justify-start">
         <img
-          src="/public/profilpic.jpg"
+          src="/public/profilpic.png"
           className="w-64 h-64 object-cover rounded-full shadow-lg border-4 border-blue-600 dark:border-blue-400"
         />
       </div>
