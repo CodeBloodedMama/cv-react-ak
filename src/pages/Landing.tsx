@@ -1,7 +1,6 @@
 export default function Landing() {
   return (
     <section className="grid gap-8 md:grid-cols-2 items-center">
-      {/* Profilbillede til venstre */}
       <div className="flex justify-center md:justify-start">
         <img
           src="/public/profilpic.png"
@@ -9,8 +8,6 @@ export default function Landing() {
           className="w-64 h-64 object-cover rounded-full shadow-lg border-4 border-blue-600 dark:border-blue-400"
         />
       </div>
-
-      {/* Tekst til højre */}
       <div className="space-y-5">
         <h1 className="text-4xl font-bold leading-tight">
           Hi, I’m{" "}
