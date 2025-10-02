@@ -52,6 +52,8 @@ Open the dev URL (usually `http://localhost:5173/`).
 
 ## 🎨 Tailwind v4 Setup (already configured)
 
-## 🌐 Deployed on Vercel
+## 🌐 Deployed on Vercel:
+
+https://alank.vercel.app 
 
 
