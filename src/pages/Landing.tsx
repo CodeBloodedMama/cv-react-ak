@@ -15,14 +15,14 @@ export default function Landing() {
         <p className="text-gray-700 dark:text-gray-300 text-lg">
           I’m a software engineer specialized in{" "}
           <strong>modern frontend development</strong> with React, TypeScript
-          and Tailwind.
+          and Tailwind.  
           I love building intuitive, responsive, and accessible UIs that not
           only look great but also deliver real value for users.
         </p>
         <p className="text-gray-700 dark:text-gray-300">
           With a strong background in <strong>UX, API integrations, and
-            scalable systems</strong>, I thrive in cross-functional teams where
-          design and technology meet.
+          scalable systems</strong>, I thrive in cross-functional teams where
+          design and technology meet.  
           My focus is creating clean code and smooth user experiences.
         </p>
         <div className="flex gap-3">
