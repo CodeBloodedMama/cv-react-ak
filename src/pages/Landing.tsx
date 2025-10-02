@@ -27,13 +27,13 @@ export default function Landing() {
         </p>
         <div className="flex gap-3">
           <a
-            href="/cv"
+            href="/src/pages/Cv.tsx"
             className="px-4 py-2 rounded bg-blue-600 text-white hover:bg-blue-700"
           >
             View CV
           </a>
           <a
-            href="/contact"
+            href="/src/pages/Contact.tsx"
             className="px-4 py-2 rounded border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800"
           >
             Contact me

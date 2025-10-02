@@ -31,7 +31,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 dark:text-gray-100">
-      {/* Navbar */}
+      {/* Nav bar */}
       <header className="sticky top-0 bg-white/80 dark:bg-gray-950/80 backdrop-blur border-b border-gray-200 dark:border-gray-800">
         <nav className="max-w-6xl mx-auto flex justify-between items-center h-16 px-4">
           <NavLink to="/" className="font-bold text-blue-700 dark:text-blue-300">
