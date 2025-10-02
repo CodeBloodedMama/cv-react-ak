@@ -1,73 +1,57 @@
-# React + TypeScript + Vite
+# Alan Khamo — React CV (Vite + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, mobile-first single-page application for my CV/portfolio.  
+Built with **Vite**, **React + TypeScript**, **Tailwind CSS v4**, and **React Router v6**.  
+Includes dark mode, EN⇄DA language toggle, and clean, recruiter-friendly pages.
 
-Currently, two official plugins are available:
+## ✨ Features
+- 💼 Pages: **Landing**, **CV**, **About**, **Contact**
+- 🌓 Dark mode toggle (persisted in `localStorage`)
+- 🎯 Tailwind v4 utility styling (no custom CSS needed)
+- 🚀 Ready for **Vercel** deployment (SPA rewrites)
+- 📱 Fully responsive & accessible defaults
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📦 Tech Stack
+- **Build:** Vite
+- **UI:** React 18 + TypeScript
+- **Styles:** Tailwind CSS v4 (`@tailwindcss/postcss`)
+- **Routing:** react-router-dom v6
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✅ Prerequisites
+- **Node.js ≥ 22.12** (or ≥ 20.19)  
+  Check with:
+  ```bash
+  node -v
+  ```
+- **npm** (bundled with Node)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Getting Started locally
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+```bash
+# 1) Install deps
+npm install
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# 2) Start dev server
+npm run dev
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# 3) Build for production
+npm run build
+
+# 4) Preview the build locally
+npm run preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Open the dev URL (usually `http://localhost:5173/`).
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+## 🎨 Tailwind v4 Setup (already configured)
+
+## 🌐 Deployed on Vercel
+
+
